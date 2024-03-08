@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #e56b6f;
+}
+
+nav img{
+    width: 10%;
+    margin-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Sominetta', sans-serif;
+    font-size: 1.2rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+body{
+    font-family: 'Sominetta', static;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    height: 83vh;
+}
+
+.Inicio{
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7e3de;
+}
+
+.Inicio .descricao {
+    padding: 50px;
+    width: 90%;
+}
+
+.Inicio h1{
+    font-family: 'Sominetta', static;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Inicio p{
+    font-family: 'Sominetta', static;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.Inicio img{
+    width: 92%;
+    padding-right: 40px;
+}
+
+footer img{
+    width: 10%;
+    margin-left: 10px;
+}
