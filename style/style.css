@@ -106,7 +106,7 @@ section {
 }
 
 .Sobre p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     text-align: left;
 }
 
@@ -325,48 +325,171 @@ footer .parceiras img {
 }
 
 /* Laptops */
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
+    header {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header img {
+        width: 4%;
+        margin-left: 5%;
+    }
+
+    nav {
+        display: flex;
+        margin: 0;
+    }
+
+    nav a {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
 
     .Inicio .descricao,
     .Sobre .descricao,
     .Desenvolvedores,
     .Feedbacks,
     footer {
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
     }
 
-    .Inicio img,
-    .Sobre img {
-        width: 70%;
-        padding-right: 10px;
+    .Inicio img {
+        width: 60%;
+        margin-left: 20%;
+        padding: 0;
+        margin-top: 20%;
     }
 
-    .Inicio {
-        display: flex;
-        flex-direction: column-reverse;
+    .Inicio .descricao {
+        padding: 20px;
+        width: 90%;
     }
 
-    .Sobre {
-        display: flex;
-        flex-direction: column-reverse;
-        font-size: 20%;
+    .Inicio h1 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        text-align: center;
     }
 
-    nav {
+    .Inicio p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Sobre .descricao {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .Sobre h1 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .Sobre p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .Sobre .imagem {
         display: flex;
         justify-content: center;
-        padding: 10px 0;
+        width: 100%;
     }
 
-    nav a {
-        font-size: 12px;
-        padding: 0 15px;
+    .Sobre img {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .Desenvolvedores .descricao h1 {
+        font-size: 1.7rem;
+        margin: 20% 0;
+    }
+
+    .equipe {
+        width: 100%;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .equipe .img {
+        width: 20%;
+        padding: 0;
+    }
+
+    .equipe .img h2 {
+        font-size: 1rem;
+    }
+
+    .equipe .img p {
+        margin-bottom: 10%;
+    }
+
+    .Feedbacks .relatos,
+    .Feedbacks .inferiores {
+        width: 100%;
+        margin: 0;
+    }
+
+    .Feedbacks .relato {
+        width: 40%;
+        margin: 0;
+        margin-top: -15%;
+
+    }
+
+    .Feedbacks .inferiores{
+        margin-bottom: 20%;
+    }
+
+    .Feedbacks .descricao h1 {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: end;
+        margin: 20% 0;
+    }
+
+    .Feedbacks .relato p {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+
+    footer .logo{
+        width: 150%;
+    }
+
+    footer .social{
+        width: 250%;
+    }
+
+    footer .parceiras h2{
+        font-size: 1.3rem;
+    }
+
+    footer .parceiras .img{
+        display: flex;
+        align-items: flex-start;
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 /* Celulares */
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     header {
         width: 100vw;
         display: flex;
@@ -420,6 +543,7 @@ footer .parceiras img {
         display: flex;
         width: 60%;
         margin-left: 20%;
+        padding: 0;
         margin-top: 20%;
     }
 
@@ -528,7 +652,6 @@ footer .parceiras img {
         justify-content: start;
         gap: 40px;
         align-items: center;
-        flex-wrap: wrap;
         width: 100%;
         height: 100vh;
         color: white;
@@ -541,6 +664,8 @@ footer .parceiras img {
         margin-left: 0;
         padding: 0;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     footer .social {
@@ -562,6 +687,7 @@ footer .parceiras img {
 
     footer .parceiras {
         width: 100%;
+        background-color: #615e5e;
         display: flex;
         flex-direction: column;
         align-items: center;
