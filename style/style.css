@@ -56,7 +56,7 @@ section {
     justify-content: space-between;
     align-items: center;
     background-color: #f7e3ded3;
-    background-image: url('img/backInicio.png');
+    background-image: url('../img/backInicio.png');
     background-size: cover;
     background-attachment: fixed;
 }
