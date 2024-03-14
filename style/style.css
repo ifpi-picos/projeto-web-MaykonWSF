@@ -56,7 +56,7 @@ section {
     justify-content: space-between;
     align-items: center;
     background-color: #f7e3ded3;
-    background-image: url('/img/backInicio.png');
+    background-image: url('img/backInicio.png');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -210,7 +210,7 @@ p {
     width: 50%;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url('/img/papel.png') no-repeat center center;
+    background: url('img/papel.png') no-repeat center center;
     background-size: contain;
     position: relative;
     overflow: hidden;
