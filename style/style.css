@@ -544,7 +544,12 @@ footer .parceiras img {
         margin: 0 auto;
     }
 
-    .Inicio,
+    .Inicio{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
     .Sobre {
         display: flex;
         flex-direction: column;
@@ -649,7 +654,7 @@ footer .parceiras img {
 
     .Feedbacks .relato {
         width: 95%;
-        margin: 0;
+        margin: -20%;
     }
 
     .Feedbacks .relato p {
